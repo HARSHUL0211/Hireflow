@@ -1,0 +1,17 @@
+# secrets - NEVER upload
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# generated data (rebuilt by `python main.py index`)
+data/faiss_index/
+data/hybrid_index/
+data/cache/
+data/memory/
+data/evaluations*.csv
+
+# resume PDFs (personal data, and the dataset may not be yours to redistribute)
+data/resumes/*.pdf
